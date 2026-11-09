@@ -1,0 +1,17 @@
+/data/*.csv
+/data/*.npz
+/data/*.json
+/analysis/cdf*/
+runs*/
+__pycache__/
+*.pt
+*.pth
+.env
+# experiments 只提交 Python 源码
+/experiments/**
+!/experiments/*/
+!/experiments/*/*.py
+!/experiments/open_transformer/models/
+!/experiments/open_cnn_transformer/models/
+!/experiments/*/models/*.py
+/experiments/*/search_before_*.py
